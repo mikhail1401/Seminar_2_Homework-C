@@ -14,8 +14,7 @@ Console.WriteLine("\nTask 13");
 // числа или сообщает, что третьей цифры нет.
 // 645 -> 5     78 -> there is not thrid digit     32679 -> 6
 
-// Console.WriteLine("Type a number: ");
-// int num = Convert.ToInt32(Console.ReadLine());
+// int num = new Random().Next();
 
 // if(num>=100) ConsoleWriteLine()
 
