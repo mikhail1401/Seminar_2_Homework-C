@@ -3,8 +3,7 @@
 // и на выходе показывает вторую цифру этого числа.
 // 456 -> 5    782 -> 8    918 -> 1
 
-Console.WriteLine("Type a 3 digit number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = new Random().Next(100,1000);
 
 int result = (number / 10) % 10;
 Console.WriteLine(result);
