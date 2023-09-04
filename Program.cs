@@ -4,6 +4,7 @@
 // 456 -> 5    782 -> 8    918 -> 1
 
 int number = new Random().Next(100,1000);
+Console.WriteLine($"The initial number is {number}");
 
 int result = (number / 10) % 10;
 Console.WriteLine(result);
@@ -14,9 +15,25 @@ Console.WriteLine("\nTask 13");
 // числа или сообщает, что третьей цифры нет.
 // 645 -> 5     78 -> there is not thrid digit     32679 -> 6
 
-// int num = new Random().Next();
+int num = new Random().Next(10,40000);
+Console.WriteLine($"The number is {num}");
 
-// if(num>=100) ConsoleWriteLine()
+if (num>99&&num<1000)
+{
+    Console.WriteLine(num%10);
+}
+else if (num>=1000&&num<10000)
+{
+    Console.WriteLine(num/10%10);
+}
+else if (num>=10000&&num<=40000)
+{
+    Console.WriteLine(num/100%10);
+}
+else
+{
+    Console.WriteLine("The number doesn't have a 3d digit");
+}
 
 
 
