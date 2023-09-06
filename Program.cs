@@ -48,3 +48,5 @@ int day = Convert.ToInt32(Console.ReadLine());
 if ((day>0)&&(day<6)) Console.WriteLine("No");
 else if ((day>5)&&(day<8)) Console.WriteLine("Yes");
 else Console.WriteLine("There is no such day");
+
+
